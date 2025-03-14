@@ -11,8 +11,8 @@ main {
     grid-area: "Shopbutton";
     display: block;
 
-    width: 50%;
-    height: 5rem;
+    width: 60%;
+    height: 6rem;
     color: var(--title-color);
     background-color: var(--footer-bg);
     border-radius: calc(3 * var(--radius));
@@ -20,6 +20,8 @@ main {
     text-align: center;
     align-content: center;
     text-decoration: none;
+
+    
 }
 
 
@@ -42,5 +44,9 @@ main {
        font-size: 3.5rem;
        justify-self: center;
        align-self: center;
+    }
+
+    #Linkbutton:hover{
+        background-color: rgb(96, 96, 96);
     }
 }

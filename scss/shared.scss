@@ -2,6 +2,7 @@
     --title-color: #FFD700;
     --footer-bg: #999999;
     --radius: 0.5rem;
+    --fonts: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -19,7 +20,7 @@ main{
 
 h1 {
     color: var(--title-color);
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-family: var(--fonts);
     font-weight: 700;
     font-style: italic;
     font-size: 3rem;
@@ -52,22 +53,29 @@ a{
     color: var(--title-color);
     text-decoration: none;
 }
-#trademark{
+.trademark{
     color: var(--title-color);
+    font-size: 1.5rem;
 }
 
 @media  screen and (min-width: 1200px) {
     h1{
         font-size: 5.5rem;
     }
-    #trademark{
-        font-size: 1.5rem;
+    .trademark{
+        font-size: 1.2rem;
         margin: 0;
-        padding: 0.3rem;
+        padding: 0.5rem;
     }
 
     li{
         font-size: 1.5rem;
+        margin: 0;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
     }
 }
 
